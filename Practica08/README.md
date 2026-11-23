@@ -45,8 +45,54 @@ javadoc -d doc -author -version src/Punto.java
 Pegar aqui la salida final de la terminal al ejecutar `PruebaPunto`.
 
 ```text
-RESUMEN DE PRUEBAS: 21 / 21 pruebas superadas con exito.
-¡FELICIDADES! Todos los metodos de la clase Punto funcionan correctamente.
+================================================================================
+  ICC 2027-1 | VERIFICACION AUTOMATIZADA: CLASE PUNTO (MINI-LAB 8)
+================================================================================
+
+>>> 1. PROBANDO CONSTRUCTORES Y GETTERS:
+  [OK] Constructor por omision inicializa en (0.0, 0.0)
+  [OK] Constructor con parametros inicializa en (3.0, 4.0)
+
+>>> 2. PROBANDO SETTERS:
+  [OK] Setters modifican correctamente las coordenadas
+
+>>> 3. PROBANDO METODO DESPLAZAR:
+  [OK] desplazar(1.5, -1.0) actualiza a (3.5, 2.0)
+
+>>> 4. PROBANDO DISTANCIA EUCLIDIANA:
+  [OK] Distancia de (0.0, 0.0) a (3.0, 4.0) es 5.0
+  [OK] Distancia de (1.0, 2.0) a (4.0, 6.0) es 5.0
+  [OK] Distancia con referencia null regresa -1.0
+
+>>> 5. PROBANDO PUNTO MEDIO (OBJETO RETORNADO):
+  [OK] Punto medio entre (1.0, 2.0) y (4.0, 6.0) es (2.5, 4.0)
+  [OK] Punto medio con null regresa null
+
+>>> 6. PROBANDO DETERMINACION DE CUADRANTES:
+  [OK] Cuadrante de (5.0, 8.0) es I
+  [OK] Cuadrante de (-3.0, 4.0) es II
+  [OK] Cuadrante de (-2.0, -7.0) es III
+  [OK] Cuadrante de (6.0, -1.0) es IV
+  [OK] Cuadrante de (0.0, 5.0) en eje es 0
+  [OK] Cuadrante del origen (0.0, 0.0) es 0
+
+>>> 7. PROBANDO METODO toString():
+  [OK] toString() de (3.0, 4.0) devuelve "(3.0, 4.0)"
+
+>>> 8. PROBANDO METODO EQUALS (IDENTIDAD VS CONTENIDO):
+  [OK] p1.equals(new Punto(3.0, 4.0)) retorna true
+  [OK] p1.equals(new Punto(3.0, 4.1)) retorna false
+  [OK] p1.equals(null) retorna false de forma segura
+
+>>> 9. PROBANDO COLINEALIDAD (RETO: TRES PUNTOS EN UNA RECTA):
+  [OK] (1,1), (2,2) y (5,5) estan alineados
+  [OK] (1,1), (2,2) y (5,6) NO estan alineados
+
+================================================================================
+  RESUMEN DE PRUEBAS: 21 / 21 pruebas superadas con exito.
+  ¡FELICIDADES! Todos los metodos de la clase Punto funcionan correctamente.
+================================================================================
+
 ```
 
 ---
