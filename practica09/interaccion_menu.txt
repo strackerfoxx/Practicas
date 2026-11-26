@@ -1,0 +1,87 @@
+================================================================
+  SISTEMA INTERACTIVO DE GUIAS POSTALES | ICC 2027-1
+================================================================
+
+--- MENU PRINCIPAL ---
+1. Emitir nueva guia de envio
+2. Clonar guia activa con un nuevo paquete
+3. Clonar paquete de la guia activa para otro destinatario
+4. Generar guia de retorno
+5. Mostrar detalle y costo de la guia activa
+0. Salir
+Seleccione una opcion: 
+--- Captura del REMITENTE ---
+Identificador (ej. PER-01): Nombre completo ficticio: Ciudad o codigo postal: 
+--- Captura del DESTINATARIO ---
+Identificador (ej. PER-01): Nombre completo ficticio: Ciudad o codigo postal: 
+--- Captura de datos del Paquete ---
+Codigo de rastreo: Peso fisico en kg: Alto en cm: Ancho en cm: Largo en cm: Valor declarado en MXN: Es envio express? (s/n): 
+Guia emitida con exito:
+========== GUIA DE ENVIO ==========
+Folio: GUIA-EBF-1
+Tipo de ruta: FORANEO
+Autoenvio: No
+
+REMITENTE
+Persona: Persona Remitente [PER-10]
+  Ubicacion: Ciudad de Mexico
+
+DESTINATARIO
+Persona: Persona Destinataria [PER-11]
+  Ubicacion: Puebla
+
+MERCANCIA
+Paquete: PKG-900
+  Peso fisico: 2.0 kg
+  Peso volumetrico: 0.2 kg
+  Peso cobrable: 2.0 kg
+  Dimensiones (alto x ancho x largo): 10.0 x 10.0 x 10.0 cm
+  Valor declarado: $500.0 MXN
+  Envio express: No
+
+Costo total: $200.0 MXN
+===================================
+
+
+--- MENU PRINCIPAL ---
+1. Emitir nueva guia de envio
+2. Clonar guia activa con un nuevo paquete
+3. Clonar paquete de la guia activa para otro destinatario
+4. Generar guia de retorno
+5. Mostrar detalle y costo de la guia activa
+0. Salir
+Seleccione una opcion: ========== GUIA DE ENVIO ==========
+Folio: GUIA-EBF-1
+Tipo de ruta: FORANEO
+Autoenvio: No
+
+REMITENTE
+Persona: Persona Remitente [PER-10]
+  Ubicacion: Ciudad de Mexico
+
+DESTINATARIO
+Persona: Persona Destinataria [PER-11]
+  Ubicacion: Puebla
+
+MERCANCIA
+Paquete: PKG-900
+  Peso fisico: 2.0 kg
+  Peso volumetrico: 0.2 kg
+  Peso cobrable: 2.0 kg
+  Dimensiones (alto x ancho x largo): 10.0 x 10.0 x 10.0 cm
+  Valor declarado: $500.0 MXN
+  Envio express: No
+
+Costo total: $200.0 MXN
+===================================
+
+Costo calculado: $200.0 MXN
+
+--- MENU PRINCIPAL ---
+1. Emitir nueva guia de envio
+2. Clonar guia activa con un nuevo paquete
+3. Clonar paquete de la guia activa para otro destinatario
+4. Generar guia de retorno
+5. Mostrar detalle y costo de la guia activa
+0. Salir
+Seleccione una opcion: Saliendo del sistema postal...
